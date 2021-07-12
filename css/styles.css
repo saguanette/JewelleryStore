@@ -1,0 +1,184 @@
+                                        * {
+                                            margin: 0;
+                                            padding: 0;
+                                            box-sizing: border-box;
+                                            font-family: Arial, Helvetica, sans-serif
+                                        }
+                                        
+                                        .title .navbar-brand {
+                                            border-radius: 100%;
+                                            font-weight: 900;
+                                            font-size: 1.5em;
+                                            font-family: 'Eagle Lake', cursive;
+                                        }
+                                        
+                                        .title .navbar-nav .nav-item :hover {
+                                            color: #ff9900;
+                                        }
+                                        
+                                        .first {
+                                            text-align: center;
+                                        }
+                                        
+                                        .first h3 {
+                                            font-size: 2rem;
+                                            margin-top: 8%;
+                                            font-weight: 700;
+                                        }
+                                        
+                                        .pair-img {
+                                            margin: 5% auto;
+                                            max-width: 98%;
+                                            border-radius: 2%;
+                                        }
+                                        
+                                        .first h5 a:hover {
+                                            transform: scale(1.2);
+                                        }
+                                        
+                                        .first h5 a {
+                                            transition: transform 330ms ease-in-out;
+                                        }
+                                        
+                                        .back-img {
+                                            position: relative;
+                                        }
+                                        
+                                        .back-img a {
+                                            position: absolute;
+                                            text-decoration: none;
+                                            color: #fff;
+                                            font-size: 1.2rem;
+                                            font-family: Georgia, 'Times New Roman', Times, serif;
+                                            right: 5%;
+                                            bottom: 8%;
+                                            padding: 1.5%;
+                                            border-radius: 10%;
+                                            font-weight: 300;
+                                            border: solid #fff 0.8px;
+                                        }
+                                        
+                                        .second {
+                                            text-align: center;
+                                            margin-top: 10%;
+                                            margin-bottom: 10%;
+                                        }
+                                        
+                                        .triple-img {
+                                            margin: 5%;
+                                            max-width: 90%;
+                                            border-radius: 2%;
+                                        }
+                                        
+                                        .second a {
+                                            text-decoration: none;
+                                            color: #000;
+                                            font-family: Georgia, 'Times New Roman', Times, serif;
+                                        }
+                                        
+                                        .second a:hover {
+                                            text-decoration: underline;
+                                        }
+                                        
+                                        .forcouples {
+                                            position: relative;
+                                        }
+                                        
+                                        .couples .text {
+                                            position: absolute;
+                                            right: 4%;
+                                            top: 45%;
+                                            font-size: 1.5rem;
+                                        }
+                                        
+                                        .couples .text h2 {
+                                            font-size: 3rem;
+                                        }
+                                        
+                                        .couples .text button {
+                                            padding: 1.5%;
+                                            position: absolute;
+                                            right: 0;
+                                        }
+                                        
+                                        .couples .text button:hover {
+                                            background-color: #ff8080;
+                                        }
+                                        
+                                        .whatweoffer h3 {
+                                            margin-top: 12%;
+                                            text-align: center;
+                                            font-family: 'Times New Roman', Times, serif;
+                                            font-weight: 600;
+                                        }
+                                        
+                                        .services {
+                                            background-color: #ffddcc;
+                                            padding: 12%;
+                                        }
+                                        
+                                        footer {
+                                            margin-top: 10%;
+                                            padding-bottom: 20px;
+                                            background-color: #2B2B2B;
+                                        }
+                                        
+                                        .contact {
+                                            margin-top: 3%;
+                                            color: #fff;
+                                        }
+                                        
+                                        .contact h5,
+                                        input,
+                                        button {
+                                            display: block;
+                                            padding: 3px;
+                                            margin: 1% 0;
+                                            font-family: Georgia, 'Times New Roman', Times, serif;
+                                            font-size: 0.9rem;
+                                        }
+                                        
+                                        .social {
+                                            margin-top: 12%;
+                                        }
+                                        
+                                        .social img {
+                                            margin-right: 2%;
+                                            float: right;
+                                        }
+                                        
+                                        .social img:hover {
+                                            transform: scale(1.1);
+                                        }
+                                        
+                                        .social p {
+                                            margin-right: 2%;
+                                            color: #fff;
+                                            float: right;
+                                        }
+                                        
+                                        @media (min-width: 320px) and (max-width: 1024px) {
+                                            .couples .text {
+                                                position: absolute;
+                                                right: 5%;
+                                                top: 40%;
+                                                font-size: 0.8rem;
+                                            }
+                                            .couples .text h2 {
+                                                font-size: 1.2rem;
+                                            }
+                                            .social p {
+                                                margin-top: 3%;
+                                            }
+                                            @media (min-width: 1025px) and (max-width: 1280px) {
+                                                .couples .text {
+                                                    position: absolute;
+                                                    right: 5%;
+                                                    top: 40%;
+                                                    font-size: 1.2rem;
+                                                }
+                                                .couples .text h2 {
+                                                    font-size: 1.6rem;
+                                                }
+                                            }
+                                        }
